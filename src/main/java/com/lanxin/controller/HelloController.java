@@ -13,14 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping(value = "hello")
-    //@ResponseBody
     public String hello(){
         return "hello";
     }
 
     @RequestMapping(value = "empinfo")
     public Emp empinfo(){
-       // System.out.println(1/0);
         Emp emp = new Emp();
         emp.setOid(3);
         emp.setEname("admin");
