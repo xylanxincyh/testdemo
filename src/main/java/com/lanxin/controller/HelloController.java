@@ -14,7 +14,7 @@ public class HelloController {
 
     @RequestMapping(value = "hello")
     public String hello(){
-        return "helloddddddddaaaaddddddddd";
+        return "hello";
     }
 
     @RequestMapping(value = "empinfo")
